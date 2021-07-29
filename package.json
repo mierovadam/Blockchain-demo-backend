@@ -1,0 +1,23 @@
+{
+    "name": "blockchain",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js -e js"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "crypto-js": "^4.0.0",
+        "elliptic": "^6.5.4",
+        "express": "^4.17.1",
+        "noble-secp256k1": "^1.2.9",
+        "request": "^2.88.2",
+        "secp256k1": "^4.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4"
+    }
+}
